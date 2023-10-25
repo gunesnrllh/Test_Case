@@ -3,6 +3,9 @@
 #Installation
 
 Clone repo
+
 Run mvn clean
+
 Run mvn compile
+
 Run mvn test

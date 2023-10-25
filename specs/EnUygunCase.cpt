@@ -1,0 +1,36 @@
+Created by testinium on 25.10.2023
+
+This is a concept file with following syntax for each concept.
+# <url> adresine gidilir
+* <url> adresine git
+//* Şuanki URL "enuygun" değerini içeriyor mu kontrol et
+
+# <kalkisHavalimani> bilgileri ile gidis secimi yapilir
+* "kalkisHavaLimani" Elementine <kalkisHavalimani> yaz
+* Elemente tıkla "kalkisHavaLimaniSecim"
+
+# <varisHavalimani> bilgileri ile donus secimi yapilir
+* "varisHavaLimani" Elementine <varisHavalimani> yaz
+* Elemente tıkla "varisHavaLimaniSecim"
+
+# Gidis tarihi olarak <gun> <ay> secilir
+* Elemente tıkla "kalkisTarihiInpu"
+* "ayBaslik" Alaninda <ay> Ayi Gorunene Kadar "ayAtla" Butonuna Tikla
+* <ay> Ayinin <gun> gunu secilir
+
+# Donus tarihi olarak <gun> <ay> secilir
+* Elemente tıkla "donusTarihiInput"
+* "ayBaslik" Alaninda <ay> Ayi Gorunene Kadar "ayAtla" Butonuna Tikla
+* <ay> Ayinin <gun> gunu secilir
+
+# Yolcu sayısı ve sınıf secilerek arama yapilir
+* Elemente tıkla "aktarmasizCheckBox"
+* Elemente tıkla "yolcuSayisiSecim"
+* Elemente tıkla "yetiskinArttirBtn"
+* Elemente tıkla "businessClassBtn"
+* Elemente tıkla "biletTuruTamamBtn"
+* Elemente tıkla "ucuzBiletBulBtn"
+
+# Sonuc sayfasinin geldigi kontrol edilir
+* "ucusSonuc" Elementi var mi kontrol et
+* "ucusSayısı" Elementinin text değerini yazdır
